@@ -5,7 +5,12 @@ Tim Truong, UMass Lowell Computer Science, tim_truong1@student.uml.edu
 Copyright (c) 2022 by Tim Truong. All rights reserved. May be freely copied or
 excerpted for educational purposes with credit to the author.
 Completed on 5/21/22 at 9pm.
+Instructor: Professor Wenjin Zhou
 Sources of Help: W3Schools and Javatpoint
+Brief Overview: The site I created for hw 1 for GUI 1 is pretty much
+a mini website portfolio using only html and css. Provides some information about me
+including but not limited to my hobbies, interests, and favorite food. Also includes
+links about some of my favorite food and how to make it and images.
 */
 
 html {
@@ -30,7 +35,7 @@ body {
     background-color: rgb(247, 0, 255);
     display: inline-flex;
     width: 100%;
-    justify-content: space-between;        /* Gives spacing between each item */
+    justify-content: space-between;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
     z-index: 1;
 }
@@ -86,7 +91,7 @@ h2 {
 }
 h2, p {
     margin: auto;
-    text-align: center;    /* Helped made the text centered */
+    text-align: center;
 }
 .Poke-Sec {
     padding: 20px;
@@ -126,7 +131,7 @@ tr:nth-child(7) {
     display: block;
     padding: 20px;
 }
-.VietFood div:nth-child(2) {    /* Added paddings to help provide space between each mini sections */
+.VietFood div:nth-child(2) {    /* Added paddings to help provide space between each food */
     padding: 20px;
 }
 .VietFood p:nth-child(1) {
